@@ -5,7 +5,6 @@ public class Lesson_5_Shuttles {
         IntStream.range(0, 101)
                 .filter(x -> !String.valueOf(x).contains("4") && !String.valueOf(x).contains("9"))
                 .forEach(System.out::println);
-
     }
     }
 
